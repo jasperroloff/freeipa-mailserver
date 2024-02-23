@@ -5,7 +5,7 @@
 
 Name:           freeipa-%{plugin_name}
 Version:        0.2.4
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Mail server integration for FreeIPA
 
 BuildArch:      noarch
@@ -97,6 +97,12 @@ fi
 %ipa_python3_sitelib/ipaserver/plugins/*
 
 %changelog
+* Fri Feb 23 2024 Jasper Roloff <jasperroloff@gmail.com>
+- nothing changed, trigger GitHub actions workflow
+
+* Fri Feb 23 2024 Jasper Roloff <jasperroloff@gmail.com>
+- nothing changed, trigger GitHub actions workflow 
+
 * Fri Feb 23 2024 Jasper Roloff <jasperroloff@gmail.com>
 - GitHub actions: build for multiple targets (jasperroloff@gmail.com)
 - add .gitignore (jasperroloff@gmail.com)
