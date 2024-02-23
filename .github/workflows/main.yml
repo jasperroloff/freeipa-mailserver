@@ -7,7 +7,7 @@ on:
     tags-ignore:
       - freeipa-mailserver-*
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
