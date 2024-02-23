@@ -4,8 +4,8 @@
 %global ipa_python3_sitelib %{python3_sitelib}
 
 Name:           freeipa-%{plugin_name}
-Version:        0.2.3
-Release:        4%{?dist}
+Version:        0.2.4
+Release:        1%{?dist}
 Summary:        Mail server integration for FreeIPA
 
 BuildArch:      noarch
@@ -97,6 +97,12 @@ fi
 %ipa_python3_sitelib/ipaserver/plugins/*
 
 %changelog
+* Fri Feb 23 2024 Jasper Roloff <jasperroloff@gmail.com>
+- GitHub actions: build for multiple targets (jasperroloff@gmail.com)
+- add .gitignore (jasperroloff@gmail.com)
+- indicate fork (jasperroloff@gmail.com)
+- rename master to main (jasperroloff@gmail.com)
+
 * Sat Jan 14 2023 Peter Keresztes Schmidt <carbenium@outlook.com> 0.2.3-4
 - spec: update repo URL (carbenium@outlook.com)
 - CI: switch to F37 (carbenium@outlook.com)
