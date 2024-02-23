@@ -11,7 +11,7 @@ Summary:        Mail server integration for FreeIPA
 BuildArch:      noarch
 
 License:        GPLv3+
-URL:            https://github.com/Carbenium/freeipa-mailserver
+URL:            https://github.com/jasperroloff/freeipa-mailserver
 Source0:        freeipa-mailserver-%{version}.tar.gz
 
 
